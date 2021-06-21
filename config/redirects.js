@@ -567,10 +567,6 @@ module.exports = [
     to: 'https://marketplace.auth0.com/integrations/evernote-social-connection'
   },
   {
-    from: '/connections/social/evernote-sandbox',
-    to: 'https://marketplace.auth0.com/integrations/evernote-sandbox-social-connection'
-  },
-  {
     from: [
       '/exact-clientid',
       '/connections/social/exact'
@@ -741,6 +737,10 @@ module.exports = [
   {
     from: '/connections/social/dropbox',
     to: 'https://marketplace.auth0.com/integrations/dropbox-social-connection'
+  },
+  {
+    from: '/connections/social/evernote-sandbox',
+    to: 'https://marketplace.auth0.com/integrations/evernote-sandbox-social-connection'
   },
   {
     from: '/connections/social/figma',
