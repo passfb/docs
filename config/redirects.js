@@ -1,4 +1,4 @@
-//  This is the list of APIs used in the old two-step quickstarts.  
+//  This is the list of APIs used in the old two-step quickstarts.
 const apiNames = [
   'aspnet-webapi',
   'aws',
@@ -43,7 +43,7 @@ module.exports = [
   {
     from: ['/design','/design/web'],
     to: '/'
-  },     
+  },
   {
     from: ['/design/browser-based-vs-native-experience-on-mobile','/tutorials/browser-based-vs-native-experience-on-mobile'],
     to: '/best-practices/mobile-device-login-flow-best-practices'
@@ -672,6 +672,10 @@ module.exports = [
     to: 'https://marketplace.auth0.com/integrations/paypal-sandbox-social-connection'
   },
   {
+    from: '/connections/social/pinterest',
+    to: 'https://marketplace.auth0.com/integrations/paypal-sandbox-social-connection'
+  },
+  {
     from: [
       '/planningcenter-clientid',
       '/connections/social/planning-center'
@@ -680,7 +684,7 @@ module.exports = [
   },
   {
     from: [
-      '/salesforce-clientid', 
+      '/salesforce-clientid',
       '/connections/social/salesforce'
     ],
     to: 'https://marketplace.auth0.com/integrations/salesforce-social-connection'
@@ -865,7 +869,7 @@ module.exports = [
     ],
     to: 'https://marketplace.auth0.com/integrations/line-social-connection'
   },
-  
+
 
   /* MICROSITES */
 
@@ -908,98 +912,98 @@ module.exports = [
     to: '/architecture-scenarios/b2b/authentication'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-authorization',
             '/architecture-scenarios/implementation/b2b/b2b-authorization'
           ],
     to: '/architecture-scenarios/b2b/authorization'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-branding',
             '/architecture-scenarios/implementation/b2b/b2b-branding'
           ],
     to: '/architecture-scenarios/b2b/branding'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-deployment',
             '/architecture-scenarios/implementation/b2b/b2b-deployment'
           ],
     to: '/architecture-scenarios/b2b/deployment'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch',
             '/architecture-scenarios/implementation/b2b/b2b-launch'
           ],
     to: '/architecture-scenarios/b2b/launch'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch-compliance',
             '/architecture-scenarios/implementation/b2b/b2b-launch/b2b-launch-compliance'
           ],
     to: '/architecture-scenarios/b2b/launch/compliance-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch-launch',
             '/architecture-scenarios/implementation/b2b/b2b-launch/b2b-launch-launch'
           ],
     to: '/architecture-scenarios/b2b/launch/launch-day'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch-operations',
             '/architecture-scenarios/implementation/b2b/b2b-launch/b2b-launch-operations'
           ],
     to: '/architecture-scenarios/b2b/launch/operations-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch-support',
             '/architecture-scenarios/implementation/b2b/b2b-launch/b2b-launch-support'
           ],
     to: '/architecture-scenarios/b2b/launch/support-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-launch-testing',
             '/architecture-scenarios/implementation/b2b/b2b-launch/b2b-launch-testing'
           ],
     to: '/architecture-scenarios/b2b/launch/testing'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-logout',
             '/architecture-scenarios/implementation/b2b/b2b-logout'
           ],
     to: '/architecture-scenarios/b2b/logout'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-operations',
             '/architecture-scenarios/implementation/b2b/b2b-operations'
           ],
     to: '/architecture-scenarios/b2b/operations'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-profile-mgmt',
             '/architecture-scenarios/implementation/b2b/b2b-profile-mgmt'
           ],
     to: '/architecture-scenarios/b2b/profile-management'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-provisioning',
             '/architecture-scenarios/implementation/b2b/b2b-provisioning'
           ],
     to: '/architecture-scenarios/b2b/provisioning'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2b/b2b-qa',
             '/architecture-scenarios/implementation/b2b/b2b-qa'
           ],
@@ -1017,105 +1021,105 @@ module.exports = [
     to: '/architecture-scenarios/b2c/architecture'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-authentication',
             '/architecture-scenarios/implementation/b2c/b2c-authentication'
           ],
     to: '/architecture-scenarios/b2c/authentication'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-authorization',
             '/architecture-scenarios/implementation/b2c/b2c-authorization'
           ],
     to: '/architecture-scenarios/b2c/authorization'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-branding',
             '/architecture-scenarios/implementation/b2c/b2c-branding'
           ],
     to: '/architecture-scenarios/b2c/branding'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-deployment',
             '/architecture-scenarios/implementation/b2c/b2c-deployment'
           ],
     to: '/architecture-scenarios/b2c/deployment'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch',
             '/architecture-scenarios/implementation/b2c/b2c-launch'
           ],
     to: '/architecture-scenarios/b2c/launch'
   },
     {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch-compliance',
             '/architecture-scenarios/implementation/b2c/b2c-launch/b2c-launch-compliance'
           ],
     to: '/architecture-scenarios/b2c/launch/compliance-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch-launch',
             '/architecture-scenarios/implementation/b2c/b2c-launch/b2c-launch-launch'
           ],
     to: '/architecture-scenarios/b2c/launch/launch-day'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch-operations',
             '/architecture-scenarios/implementation/b2c/b2c-launch/b2c-launch-operations'
           ],
     to: '/architecture-scenarios/b2c/launch/operations-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch-support',
             '/architecture-scenarios/implementation/b2c/b2c-launch/b2c-launch-support'
           ],
     to: '/architecture-scenarios/b2c/launch/support-readiness'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-launch-testing',
             '/architecture-scenarios/implementation/b2c/b2c-launch/b2c-launch-testing'
           ],
     to: '/architecture-scenarios/b2c/launch/testing'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-logout',
             '/architecture-scenarios/implementation/b2c/b2c-logout'
           ],
     to: '/architecture-scenarios/b2c/logout'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-operations',
             '/architecture-scenarios/implementation/b2c/b2c-operations'
           ],
     to: '/architecture-scenarios/b2c/operations'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-profile-mgmt',
             '/architecture-scenarios/implementation/b2c/b2c-profile-mgmt'
           ],
     to: '/architecture-scenarios/b2c/profile-management'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-provisioning',
             '/architecture-scenarios/implementation/b2c/b2c-provisioning'
           ],
     to: '/architecture-scenarios/b2c/provisioning'
   },
   {
-    from: [ 
+    from: [
             '/architecture-scenarios/b2c/b2c-qa',
             '/architecture-scenarios/implementation/b2c/b2c-qa'
           ],
@@ -1344,7 +1348,7 @@ module.exports = [
     to: '/applications/confidential-and-public-applications'
   },
 
-  
+
   /* Authorization */
 
   {
@@ -1474,7 +1478,7 @@ module.exports = [
   {
     from: ['/authorization/guides/manage-users'],
     to: '/authorization/rbac-users'
-  }, 
+  },
 
   /* Best Practices */
 
@@ -1614,7 +1618,7 @@ module.exports = [
     to: '/cms/wordpress-plugin/integrate-with-wordpress'
   },
 
-  
+
 
 /* Compliance */
 
@@ -1689,7 +1693,7 @@ module.exports = [
   },
 
   /* Deploy */
-  
+
   {
     from: ['/get-started/deployment-options', '/getting-started/deployment-models','/overview/deployment-models','/deployment'],
     to: '/deploy'
@@ -1715,7 +1719,7 @@ module.exports = [
     to: '/deploy/private-cloud/private-cloud-onboarding/private-cloud-remote-access-options'
   },
   {
-    from: ['/private-cloud/private-cloud-onboarding/standard-private-cloud-infrastructure-requirements','/private-saas-deployment/private-cloud','/private-cloud/standard-private-cloud','/private-saas-deployment/onboarding/managed-private-cloud/infrastructure','/private-cloud/onboarding/managed-private-cloud/infrastructure','/private-saas-deployment/managed-private-cloud','/private-cloud/onboarding/managed-private-cloud','/private-saas-deployment/onboarding/managed-private-cloud','/private-cloud/onboarding/managed-private-cloud','/appliance/infrastructure','/appliance/infrastructure/security'], 
+    from: ['/private-cloud/private-cloud-onboarding/standard-private-cloud-infrastructure-requirements','/private-saas-deployment/private-cloud','/private-cloud/standard-private-cloud','/private-saas-deployment/onboarding/managed-private-cloud/infrastructure','/private-cloud/onboarding/managed-private-cloud/infrastructure','/private-saas-deployment/managed-private-cloud','/private-cloud/onboarding/managed-private-cloud','/private-saas-deployment/onboarding/managed-private-cloud','/private-cloud/onboarding/managed-private-cloud','/appliance/infrastructure','/appliance/infrastructure/security'],
     to: '/deploy/private-cloud/private-cloud-onboarding/standard-private-cloud-infrastructure-requirements'
   },
   {
@@ -1735,7 +1739,7 @@ module.exports = [
     to: '/deploy/private-cloud/private-cloud-migrations/migrate-from-standard-private-cloud-to-managed-private-cloud'
   },
   {
-    from: ['/private-cloud/private-cloud-migrations/migrate-private-cloud-custom-domains','/appliance/custom-domains','/private-saas-deployment/custom-domain-migration','/private-cloud/custom-domain-migration','/private-cloud/migrate-private-cloud-custom-domains'], 
+    from: ['/private-cloud/private-cloud-migrations/migrate-private-cloud-custom-domains','/appliance/custom-domains','/private-saas-deployment/custom-domain-migration','/private-cloud/custom-domain-migration','/private-cloud/migrate-private-cloud-custom-domains'],
     to: '/deploy/private-cloud/private-cloud-migrations/migrate-private-cloud-custom-domains'
   },
   {
@@ -1809,7 +1813,7 @@ module.exports = [
   },
   {
     from: [
-      '/email/testing', 
+      '/email/testing',
       '/auth0-email-services/configure-external-smtp-email-providers/configure-test-smtp-email-servers'
     ],
     to: '/email/configure-test-smtp-email-servers'
@@ -1823,7 +1827,7 @@ module.exports = [
     ],
     to: '/email/send-email-invitations-for-application-signup'
   },
- 
+
   /* Extensions */
 
   {
@@ -1854,11 +1858,11 @@ module.exports = [
     from: ['/extensions/authorization-extension/v2/import-export-data'],
     to: '/extensions/authorization-extension/import-and-export-authorization-extension-data'
   },
-  { 
+  {
     from: ['/extensions/authorization-extension/v2/migration'],
     to: '/extensions/authorization-extension/migrate-to-authorization-extension-v2'
   },
-  { 
+  {
     from: ['/extensions/authorization-extension/v2/rules'],
     to: '/extensions/authorization-extension/use-rules-with-the-authorization-extension'
   },
@@ -2167,7 +2171,7 @@ module.exports = [
     to: '/flows/call-api-hybrid-flow'
   },
 
-  
+
 
   /* Get Started */
 
@@ -2299,7 +2303,7 @@ module.exports = [
     to: '/dashboard-access'
   },
   {
-    from: ['/dashboard-access/dashboard-roles/feature-access-by-role'], 
+    from: ['/dashboard-access/dashboard-roles/feature-access-by-role'],
     to: '/dashboard-access/feature-access-by-role'
   },
   {
@@ -2963,7 +2967,7 @@ module.exports = [
     from: ['/cross-origin-authentication', '/flows/login/embedded-login/cross-origin-authentication'],
     to: '/login/embedded-login/cross-origin-authentication'
   },
-  
+
   /* Logout */
 
   {
@@ -3016,7 +3020,7 @@ module.exports = [
     from: [
       '/logs/export-log-events-with-log-streaming/stream-http-event-logs',
       '/logs/streams/http-event',
-      '/logs/streams/stream-http-event-logs' 
+      '/logs/streams/stream-http-event-logs'
     ],
     to: '/monitor-auth0/streams/custom-log-streams'
   },
@@ -3052,7 +3056,7 @@ module.exports = [
       '/logs/streams/datadog-dashboard-templates'
     ],
     to: '/monitor-auth0/streams/datadog-dashboard-templates'
-  }, 
+  },
   {
     from: ['/logs/personally-identifiable-information-pii-in-auth0-logs'],
     to: '/logs/pii-in-logs'
@@ -3106,7 +3110,7 @@ module.exports = [
   },
 
   /* MFA */
-  
+
   {
     from: ['/multi-factor-authentication','/multi-factor-authentication2','/multifactor-authentication/custom-provider','/multifactor-authentication','/mfa-in-auth0','/multifactor-authentication/yubikey','/multifactor-authentication/guardian','/multifactor-authentication/guardian/user-guide','/multi-factor-authentication/yubikey'],
     to: '/mfa'
@@ -3250,7 +3254,7 @@ module.exports = [
   {
     from: ['/mfa/concepts/mfa-developer-resources','/multifactor-authentication/developer','/mfa/concepts/developer-resources'],
     to: '/mfa/mfa-developer-resources'
-  },  
+  },
   {
     from: ['/mfa/guides/enable-mfa'],
     to: '/mfa/enable-mfa'
@@ -3295,7 +3299,7 @@ module.exports = [
     from: ['/monitoring/guides/monitor-using-SCOM'],
     to: '/monitor-auth0/monitor-using-scom'
   },
-  
+
 
   /* Policies */
 
@@ -3403,7 +3407,7 @@ module.exports = [
     to: '/product-lifecycle/deprecations-and-migrations/instagram-connection-deprecation'
   },
   {
-    from: [      
+    from: [
       '/product-lifecycle/deprecations-and-migrations/migrate-to-management-api-v2',
       '/api/management-api-v1-deprecated',
       '/api/management-api-changes-v1-to-v2',
@@ -3445,7 +3449,7 @@ module.exports = [
     from: ['/deprecations-and-migrations/migrate-tenant-member-roles'],
     to: '/product-lifecycle/deprecations-and-migrations/migrate-tenant-member-roles'
   },
-    
+
 
   /* Professional Services */
 
@@ -3669,7 +3673,7 @@ module.exports = [
 
   /* Rules */
 
-  { 
+  {
     from: ['/rules/current', '/rules/current/csharp', '/rules/guides/csharp', '/rules/legacy', '/rules/references/legacy','/rules/references/modules','/rule'],
     to: '/rules'
   },
@@ -3769,7 +3773,7 @@ module.exports = [
     ],
     to: '/rules/use-cases/track-new-sign-ups-in-salesforce'
   },
- 
+
 
   /* Scopes */
 
@@ -3820,7 +3824,7 @@ module.exports = [
   },
   {
     from: [
-      '/users/normalized/auth0/store-user-data', 
+      '/users/normalized/auth0/store-user-data',
       '/users/store-user-data',
       '/users/references/user-data-storage-scenario',
       '/users/user-data-storage-scenario',
@@ -3834,8 +3838,8 @@ module.exports = [
   {
     from: [
       '/tokens/concepts/token-storage',
-      '/videos/session-and-cookies', 
-      '/security/store-tokens', 
+      '/videos/session-and-cookies',
+      '/security/store-tokens',
       '/tokens/guides/store-tokens',
       '/tokens/token-storage'
     ],
@@ -4020,7 +4024,7 @@ module.exports = [
   {
     from: ['/support/matrix'],
     to: '/support/product-support-matrix'
-  },  
+  },
   {
     from: ['/support/reset-account-password','/tutorials/reset-account-password'],
     to: '/support/reset-account-passwords'
@@ -4190,7 +4194,7 @@ module.exports = [
   },
 
   /* Troubleshoot */
- 
+
   {
     from: ['/troubleshoot/basics'],
     to: '/troubleshoot'
@@ -4201,9 +4205,9 @@ module.exports = [
   },
   {
     from: [
-      '/har', 
-      '/tutorials/troubleshooting-with-har-files', 
-      '/troubleshoot/har', 
+      '/har',
+      '/tutorials/troubleshooting-with-har-files',
+      '/troubleshoot/har',
       '/support/troubleshooting-with-har-files',
       '/troubleshoot/guides/generate-har-files',
       '/troubleshoot/generate-and-analyze-har-files'
@@ -4300,13 +4304,13 @@ module.exports = [
 
   {
     from: [
-      '/hosted-pages/hosted-login-auth0js', 
-      '/hosted-pages/login/auth0js', 
-      '/hosted-pages/login/lock', 
-      '/hosted-pages/login/lock-passwordless', 
-      '/hosted-pages/hosted-login-auth0js/v7', 
-      '/hosted-pages/hosted-login-auth0js/v8', 
-      '/hosted-pages/login', 
+      '/hosted-pages/hosted-login-auth0js',
+      '/hosted-pages/login/auth0js',
+      '/hosted-pages/login/lock',
+      '/hosted-pages/login/lock-passwordless',
+      '/hosted-pages/hosted-login-auth0js/v7',
+      '/hosted-pages/hosted-login-auth0js/v8',
+      '/hosted-pages/login',
       '/hosted-pages',
       '/universal-login/customization-new',
       '/login_page'
@@ -4425,8 +4429,8 @@ module.exports = [
     from: ['/universal-login/text-customization'],
     to: '/universal-login/new-experience/text-customization-new-universal-login'
   },
-  
-  
+
+
 
 
   /* Users */
@@ -4464,7 +4468,7 @@ module.exports = [
   },
   {
     from: [
-      '/users/references/metadata-field-name-rules', 
+      '/users/references/metadata-field-name-rules',
       '/best-practices/metadata-best-practices'
     ],
     to: '/users/metadata/metadata-fields-data'
@@ -4472,7 +4476,7 @@ module.exports = [
   {
     from: [
       '/users/guides/update-metadata-properties-with-management-api',
-      '/update-metadata-with-the-management-api', 
+      '/update-metadata-with-the-management-api',
       '/users/update-metadata-with-the-management-api',
       '/metadata/management-api',
       '/metadata/apiv2',
@@ -4488,10 +4492,10 @@ module.exports = [
   },
   {
     from: [
-      '/rules/current/metadata-in-rules', 
-      '/rules/guides/metadata', 
-      '/rules/metadata-in-rules', 
-      '/metadata-in-rules', 
+      '/rules/current/metadata-in-rules',
+      '/rules/guides/metadata',
+      '/rules/metadata-in-rules',
+      '/metadata-in-rules',
       '/metadata/rules',
       '/rules/metadata'
     ],
@@ -4793,9 +4797,9 @@ module.exports = [
 
   {
     from: ['/configuration-overview','/configure'],
-    to: '/config' 
+    to: '/config'
   },
-  
+
   /* Tenant Settings */
 
   {
