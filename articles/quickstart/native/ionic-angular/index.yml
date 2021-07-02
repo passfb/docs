@@ -1,4 +1,4 @@
-title: Ionic & Capacitor (React)
+title: Ionic & Capacitor (Angular)
 logo_name: ionic
 author:
   name: Steve Hobbs
@@ -7,22 +7,22 @@ author:
 alias:
   - ionic
   - ionic5
-  - react
+  - angular
   - capacitor
-  - auth0-react
+  - auth0-angular
 language:
   - Typescript
 framework:
   - Ionic5
   - Capacitor
-  - React
+  - Angular
 hybrid: true
 image: /media/platforms/ionic.jpeg
 topics:
   - quickstart
 contentType: tutorial
 useCase: quickstart
-seo_alias: ionic-react
+seo_alias: ionic-angular
 default_article: 01-login
 articles:
   - 01-login
